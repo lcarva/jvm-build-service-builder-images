@@ -27,7 +27,7 @@ spec:
   - name: image-expires-after
     value: 5d
   - name: dockerfile
-    value: /Dockerfile.ubi8
+    value: jbs-ubi8-builder/Dockerfile
   pipelineSpec:
     description: |
       This pipeline is ideal for building container images from a Containerfile while reducing network traffic.

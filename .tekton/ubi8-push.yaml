@@ -24,7 +24,7 @@ spec:
   - name: output-image
     value: quay.io/redhat-user-workloads/lucarval-tenant/ubi8:{{revision}}
   - name: dockerfile
-    value: /Dockerfile.ubi8
+    value: jbs-ubi8-builder/Dockerfile
   pipelineSpec:
     description: |
       This pipeline is ideal for building container images from a Containerfile while reducing network traffic.
